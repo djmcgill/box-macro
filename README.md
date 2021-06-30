@@ -1,7 +1,11 @@
 # Box
-Well it's still 2 more characters than needed but at least it keeps you off nightly.
+Choose your own syntax!
 
 ### Usage
 ```
-let x = box_!(y); // is the same as `let x = Box::new(y);`
+// all the same as `let x = Box::new(y);`
+let x = box_!(y); 
+let x = b0x!(y);
+let x = bx!(y);
+let x = b!(y);
 ```
